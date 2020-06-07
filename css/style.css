@@ -1,17 +1,43 @@
+body {
+  
+ 
+}
 header, footer {
-    background-color: #ffa500;
+    background-color: #DDA0DD;
     text-align: center;
-    min-width: 50px;
+    min-width: 100% ;
 }
-main {
-    display: grid;
-     
-    height: 400px;
-    width: 100px;
-}
-section {
-   grid-template: 2fr 2fr 2fr 2fr 2fr/ 2fr 2fr 2fr 2fr;
-   grid-gap: 3px;
+.nav {
+    padding: 10px;
+    background-color: #705C5A;
     
+}
+.nav a{
+    padding: 10px;
+    color: white;
+}
+
+.photos {
+    display: grid;
+    grid-template: auto auto auto auto/auto auto auto auto;
+    grid-gap: 15px;
+   
+    z-index: 5;
+    height: 100px;
+    justify-content: space-evenly;
+    position: relative;
+    padding-bottom: 80px;
+    min-height: 100vh;
+}
+.images {
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+
+footer {
+    position:absolute;
+    margin: 0;
 }
    
